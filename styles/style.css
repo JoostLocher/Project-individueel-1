@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "unbound";
+    src: url("../fonts/Unbounded-Bold.ttf");
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+
+body {
+    background-color: #F4F1E2;
+    color: black;
+}
+
+h1 {
+font-family: "unbound";
+}
+
+p {
+    font-family: "opensans";
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 5em;
+    background-color: #638A55;
+}
