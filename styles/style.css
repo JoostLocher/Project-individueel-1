@@ -165,6 +165,9 @@ nav a {
     border: 0.5em solid #638A55;
     border-radius: 0 1em;
     margin: 2em 0 8em 0;
+    display: flex;
+    align-items: start;
+    text-align: start;
 }
 
 
@@ -176,6 +179,36 @@ nav a {
 
 
 /*milieu-pagina*/
+
+#milieu {
+    background-image: url('../images/background_milieu.jpg');
+}
+
 main ul {
     padding: 0;
+}
+
+main li {
+    background-color: rgba(244, 241, 226, 0.8);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+main li:nth-of-type(1), main li:nth-of-type(3) {
+    background-color: rgba(99, 138, 85, 0.8);
+    border: 0.5em solid #638A55;
+    border-radius: 0 1em;
+}
+
+main li:nth-of-type(2), main li:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+            align-items: end;
+            text-align: end;
+            border: 0.5em solid #638A55;
+            border-radius: 1em 0;
+}
+
+main li:last-of-type {
+    margin-bottom: 5em;
 }
