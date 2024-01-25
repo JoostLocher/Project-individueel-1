@@ -165,6 +165,9 @@ nav a {
     text-align: start;
 }
 
+p a {
+    text-decoration: underline;
+}
 
 /*waarom-pagina*/
 
